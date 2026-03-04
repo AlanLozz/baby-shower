@@ -190,24 +190,6 @@ function App() {
             {/* Honey Drip Divider */}
             <HoneyDrip />
 
-            {/* Gifts Section */}
-            <section className="mt-6 mb-6 text-center animate-fade-in-up delay-500">
-              <h2 className="font-display text-xl text-warm-brown mb-5">
-                🎁 Sugerencia de Regalos
-              </h2>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-5 rounded-2xl border border-honey-gold/20 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="text-3xl mb-2">✉️</div>
-                  <p className="text-sm font-bold text-warm-brown">Lluvia de Sobres</p>
-                </div>
-                <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-5 rounded-2xl border border-honey-gold/20 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="text-3xl mb-2">🍼</div>
-                  <p className="text-sm font-bold text-warm-brown">Pañales</p>
-                  <p className="text-[10px] text-warm-gray">(Etapa 2 y 3)</p>
-                </div>
-              </div>
-            </section>
-
             {/* Footer */}
             <footer className="text-center mt-8 mb-2 space-y-4 animate-fade-in-up delay-700">
               <div className="bg-gradient-to-r from-transparent via-honey-gold/20 to-transparent h-px mb-6" />
